@@ -12,6 +12,12 @@ import Script from 'next/script'
 export const metadata = {
   title: "Texpert",
   description: "Learn and Grow",
+  icons:{
+    icon:["./android-chrome-512x512.png"],
+    apple:["./apple-touch-icon.png"],
+    android:["./android-chrome-512x512.png"],
+    manifest:["./site.webmanifest"]
+  }
 };
 
 export default function RootLayout({ children }) {

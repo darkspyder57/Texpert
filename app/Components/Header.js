@@ -1,46 +1,46 @@
 "use client"
-import React,{useEffect} from "react"
+import React, { useEffect } from "react"
 import Link from "next/link";
 
 export default function Header() {
 
     useEffect(() => {
         const mobileNavToggleBtn = document.querySelector('.mobile-nav-toggle');
-    
+
         function mobileNavToggle() {
-          document.body.classList.toggle('mobile-nav-active');
-          mobileNavToggleBtn.classList.toggle('bi-list');
-          mobileNavToggleBtn.classList.toggle('bi-x');
+            document.body.classList.toggle('mobile-nav-active');
+            mobileNavToggleBtn.classList.toggle('bi-list');
+            mobileNavToggleBtn.classList.toggle('bi-x');
         }
-    
+
         if (mobileNavToggleBtn) {
-          mobileNavToggleBtn.addEventListener('click', mobileNavToggle);
+            mobileNavToggleBtn.addEventListener('click', mobileNavToggle);
         }
-    
+
         // Cleanup event listener on component unmount
         return () => {
-          if (mobileNavToggleBtn) {
-            mobileNavToggleBtn.removeEventListener('click', mobileNavToggle);
-          }
+            if (mobileNavToggleBtn) {
+                mobileNavToggleBtn.removeEventListener('click', mobileNavToggle);
+            }
         };
-      }, []);
+    }, []);
 
     return (
         <header id="header" className="header d-flex align-items-center sticky-top">
             <div className="container-fluid container-xl position-relative d-flex align-items-center">
 
                 <Link href="/" legacyBehavior>
-                <a className="logo d-flex align-items-center me-auto">
-                    {/* <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> --> */}
-                    <h1 className="sitename">Texpert</h1>
-                </a>
+                    <a className="logo d-flex align-items-center me-auto">
+                        {/* <!-- Uncomment the line below if you also wish to use an image logo --> */}
+                        <img src="assets/img/logos/TP-logo.png"  alt="" />
+                        {/* <h1 className="sitename">Texpert</h1> */}
+                    </a>
                 </Link>
-                
+
 
                 <nav id="navmenu" className="navmenu">
                     <ul>
-                        <li><Link href="/" legacyBehavior><a className="active">Home<br/></a></Link></li>
+                        <li><Link href="/" legacyBehavior><a className="active">Home<br /></a></Link></li>
                         <li><Link href="/about" legacyBehavior><a>About</a></Link></li>
                         <li><Link href="/courses" legacyBehavior><a>Courses</a></Link></li>
                         <li><Link href="/trainers" legacyBehavior><a>Trainers</a></Link></li>

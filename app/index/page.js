@@ -19,7 +19,7 @@ export default function IndexPage() {
 
                     <div className="container">
                         <h2 data-aos="fade-up" data-aos-delay="100">Learning Today,<br />Leading Tomorrow</h2>
-                        <p data-aos="fade-up" data-aos-delay="200">We are team of talented designers making websites with Bootstrap</p>
+                        <p data-aos="fade-up" data-aos-delay="200">We are team of talented learners trying to make a change.</p>
                         <div className="d-flex mt-4" data-aos="fade-up" data-aos-delay="300">
                             <Link href="/contact" legacyBehavior><a className="btn-get-started">Get Started</a></Link>
                         </div>
@@ -300,7 +300,7 @@ export default function IndexPage() {
                                             <p className="price">$169</p>
                                         </div>
 
-                                        <h3><a href="course-details.html">Website Design</a></h3>
+                                        <h3><Link href="/course-details" legacyBehavior><a>Website Design</a></Link></h3>
                                         <p className="description">Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
                                         <div className="trainer d-flex justify-content-between align-items-center">
                                             <div className="trainer-profile d-flex align-items-center">
@@ -327,7 +327,7 @@ export default function IndexPage() {
                                             <p className="price">$250</p>
                                         </div>
 
-                                        <h3><a href="course-details.html">Search Engine Optimization</a></h3>
+                                        <h3><Link href="/course-details" legacyBehavior><a>Search Engine Optimization</a></Link></h3>
                                         <p className="description">Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
                                         <div className="trainer d-flex justify-content-between align-items-center">
                                             <div className="trainer-profile d-flex align-items-center">
@@ -354,7 +354,7 @@ export default function IndexPage() {
                                             <p className="price">$180</p>
                                         </div>
 
-                                        <h3><a href="course-details.html">Copywriting</a></h3>
+                                        <h3><Link href="/course-details" legacyBehavior><a>Copywriting</a></Link></h3>
                                         <p className="description">Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
                                         <div className="trainer d-flex justify-content-between align-items-center">
                                             <div className="trainer-profile d-flex align-items-center">
@@ -388,10 +388,10 @@ export default function IndexPage() {
 
                             <div className="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
                                 <div className="member">
-                                    <img src="assets/img/trainers/trainer-1.jpg" className="img-fluid" alt="" />
+                                    <img src="assets/img/trainers/Mohnish_img.jpg" className="img-fluid" alt="" />
                                     <div className="member-content">
-                                        <h4>Walter White</h4>
-                                        <span>Web Development</span>
+                                        <h4>M Mohnish Kumar</h4>
+                                        <span>Frontend Developer</span>
                                         <p>
                                             Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut
                                         </p>
@@ -408,10 +408,10 @@ export default function IndexPage() {
 
                             <div className="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
                                 <div className="member">
-                                    <img src="assets/img/trainers/trainer-2.jpg" className="img-fluid" alt="" />
+                                    <img src="assets/img/trainers/Kamal_img.jpeg" className="img-fluid" alt="" />
                                     <div className="member-content">
-                                        <h4>Sarah Jhinson</h4>
-                                        <span>Marketing</span>
+                                        <h4>Kamal Acharya</h4>
+                                        <span>DevOps Engineer</span>
                                         <p>
                                             Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
                                         </p>
@@ -428,10 +428,10 @@ export default function IndexPage() {
 
                             <div className="col-lg-4 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
                                 <div className="member">
-                                    <img src="assets/img/trainers/trainer-3.jpg" className="img-fluid" alt="" />
+                                    <img src="assets/img/trainers/Somu_img.jpeg" className="img-fluid" alt="" />
                                     <div className="member-content">
-                                        <h4>William Anderson</h4>
-                                        <span>Content</span>
+                                        <h4>Somanath Hansda</h4>
+                                        <span>Graphics & UI Designer</span>
                                         <p>
                                             Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara
                                         </p>
